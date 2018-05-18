@@ -1,3 +1,12 @@
 * {
     border: 1px solid red !important;
 }
+
+header {
+    background-color: lightblue;
+}
+
+.searchHead {
+    background-color: lightblue;
+}
+    
