@@ -7,7 +7,8 @@ function makeQuery()
 {
    var searchTerm = $("").text();
    var recordNum = $("").text();
-   var year = $("").text();
+   var yearStart = $("").text();
+   var yearEnd = $("").text();
 $.ajax({
     url: queryURL,
     method: "GET"
