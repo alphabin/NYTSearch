@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
@@ -11,8 +12,41 @@
     <title>Document</title>
 </head>
 <body>
-    
-
+    <div class="jumbotron text-center">
+        New York Times Search
+    </div>
+    <div class="container">
+        <div class="row"> Search Parameters</div>   
+        <form>
+            <div class="form-group">
+              <label for="searchTerm">Search Term:</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="form-group">
+              <label for="records">Number of Records to Retreive:</label>
+              <input type="text" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label for="startYear">Start Year (Optional):</label>
+                <input type="text" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label for="records">End Year (Optional):</label>
+                <input type="text" class="form-control" >
+            </div>
+            <button type="search" class="btn fab fa-searchengin">Search</button>
+            <button type="search" class="btn fas fa-trash">Clear Results</button>
+          </form>
+            <header class="row">
+                  Top Articles
+            </header>
+            <div class="row articleLoad">
+                Articles go in here!
+            </div>
+    </div>
+    <footer class="text-center">
+            Made with no love
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
