@@ -9,4 +9,8 @@ header {
 .searchHead {
     background-color: lightblue;
 }
+
+body h1 {
+    font-family: 'Lobster', cursive;
+}
     
